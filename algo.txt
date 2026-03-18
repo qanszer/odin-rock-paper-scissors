@@ -1,0 +1,10 @@
+03 - Pseudocode
+
+Print welcome text
+If user types "1":
+    Start game
+
+Function startGame
+    Print instructions
+    Print round 1 details
+    

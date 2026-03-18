@@ -1,0 +1,86 @@
+01
+I need to make a rock paper scissors program wherein there are 2 players: the computer and the user. The computer's choices are automatically generated and changes for each round, while the user's choices are inputted by the user for each round. 
+
+The user's inputs include "rock", "paper", and "scissors". The letters can be inputted with any case to save the hassle from the user. 
+
+A score tracker will be shown for each round, and an indicator also on who won the round. At the end of the 5 rounds, The winner will be announced for the 5 rounds and will be asked if they want to play the game again or exit.
+
+It will also have a starting lobby wherein the program welcomes the user and asks if he wants to play the game
+
+When the program starts, it will automatically play for 5 rounds straight.
+
+
+===
+
+
+02a - The desired outputs
+
+---
+
+Welcome! Play a rock-paper-scissors game with me!
+
+To start playing, type "1"
+
+--- (clear the console)
+
+Let's start!
+To play, type "rock", "paper", or "scissors"
+
+Round 1
+
+Your choice: rock
+My choice: paper
+
+You lost! HAHAHAHAHA
+Your Score: 0
+My Score: 1
+
+---
+
+Round 2
+rock
+
+Your choice: rock
+My choice: scissors
+
+You won! ok
+Your Score: 1
+My Score: 1
+
+---
+
+Final Results
+Your Score: 1
+My Score: 3
+
+I WIN HAHAHHAHAHAHAHHAHAHAHAAHAHHAAHHAHHAHAAHAHAHAHAH
+
+
+Rematch? Type "yes"
+Or rage quit? Type "i am a loser"
+
+
+===
+
+
+02b - Algorithm
+
+Print welcome text
+If user types "1", start the game
+
+Print instructions (this will only happen once)
+Print round number 1
+Ask for user choice
+
+Print computer choice, winner indicator, and score tracker
+Print round number 2 
+Ask for user choice
+
+Print computer choice, winner indicator, and score tracker
+Repeat until round 5
+
+Print final score tracker and winner indicator
+Print asking for rematch, if "yes", restart the game of 5 rounds
+Print asking if quitting the program, if "i am a loser", stop the program
+
+
