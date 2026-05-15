@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="brief description about the website. this text matters because it often appears in Google search results under your page title, so it helps people decide whether to click on your site.">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Geist|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Geist|Open+Sans|Ubuntu">
+    <link rel="stylesheet" href="style.css">
     <title></title>
-    <style>
-        body {
-            background-color: black;
-        }
-    </style>
 </head>
 <body>
+    <div class="game-box">
+        <div class="pre-header">A Simple</div>
+        <div class="header">Rock Paper Scissors Game</div>
+
+        <div class="scores">
+            <div class="player">
+                <div class="player-label">Player Score:</div>
+                <div class="player-score">0</div>
+            </div>
+            
+            <div class="computer">
+                <div class="computer-label">Computer Score:</div>
+                <div class="computer-score">0</div>
+            </div>
+        </div>
+
+        <p class="announcer">First to score 5 points wins!</p>
+        <button class="restart">Restart Game</button>
+        
+        <p class="choice-label">Choose your move! Rock, paper, or scissors?</p>
+        <div class="buttons">
+            <button class="rock">ROCK</button>
+            <button class="paper">PAPER</button>
+            <button class="scissors">SCISSORS</button>
+        </div>
+    </div>
+
     <script src="scripts.js"></script>
 </body>
 </html>
